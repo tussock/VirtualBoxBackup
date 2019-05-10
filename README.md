@@ -2,7 +2,7 @@
 Backup a set of VMs running in VirtualBox.
 
 ## Overview
-Given a set of VMs running in virtualbox, this script will back them all up to a given folder. The method used is to copy the folder, making for the safest and simplest restore process.
+Given a set of VMs running in virtualbox, this script will back them all up to a given folder by making a complete copy of the VM folder. This makes for the safest and simplest restore process. The backup files are compressed, encrypted and rotated.
 
 ## Process
 The process is as follows:
