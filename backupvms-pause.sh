@@ -28,7 +28,7 @@
 VBOXUSER=<user who owns VMs>
 
 # How to run $VBOXMANAGE
-VBOXMANAGE="sudo -u $VBOXUSER VBoxManage"
+VBOXMANAGE="sudo -H -u $VBOXUSER VBoxManage"
 
 # Backups will be stored here and rotated.
 EXPORTDIR=<folder to store backups>
